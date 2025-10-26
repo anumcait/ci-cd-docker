@@ -1,5 +1,20 @@
 # 🚀 CI/CD Pipeline with GitHub Actions & Docker
 
+**CI/CD Pipeline with GitHub Actions & Docker (No Cloud Needed)**
+Objective: Set up a full CI/CD pipeline that builds a Docker image, runs tests, and deploys locally.
+
+Tools: GitHub Actions, Docker, Docker Hub (free), Minikube or local VM
+
+**Mini Guide:**
+- Write a Dockerfile and docker-compose.yml.
+- Configure GitHub Actions to run tests, build the image, and push to Docker Hub.
+- Use Minikube or a local VM to pull and run the image.
+**Deliverables:**
+ - GitHub repo with workflows
+ - Docker image link
+ - CI/CD workflow results
+ - Screenshots of the deployed app
+
 ## 🧩 Project Overview
 This project demonstrates a **local CI/CD pipeline** using **GitHub Actions**, **Docker**, and **Docker Hub** — without relying on any cloud services.  
 It builds a Docker image, runs tests, pushes the image to Docker Hub, and then deploys it locally using **Docker Compose** (or optionally Minikube).
@@ -38,7 +53,7 @@ A simple Python Flask web app.
 
 **appy.py**
 
-``````python
+```python
 from flask import Flask
 app = Flask(__name__)
 
@@ -48,11 +63,12 @@ def home():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
+```
 ---
 
-🐳 Docker Setup
-Dockerfile
+## 🐳 Docker Setup
+
+**Dockerfile**
 
 ```
 FROM python:3.11-slim
@@ -73,6 +89,7 @@ services:
       - "5000:5000"
 ```
 ## ⚙️ GitHub Actions CI/CD Workflow
+
 ```bash
 Path: .github/workflows/ci-cd.yml
 name: CI/CD Pipeline
@@ -123,7 +140,50 @@ jobs:
 Add the following secrets to your GitHub repo under
 Settings → Secrets → Actions:
 
-|Secret Name |Description|
-|------------|------------|
+|Secret Name|Description|
+|-----------|------------|
 |DOCKERHUB_USERNAME|	Your Docker Hub username|
 |DOCKERHUB_TOKEN|	Docker Hub access token|
+
+---
+
+## 🚀 Running the Pipeline
+
+Push your code to the main branch.
+
+Go to the Actions tab on GitHub.
+
+Watch the CI/CD workflow run automatically:
+
+✅ Checkout code
+
+✅ Install dependencies
+
+✅ Build Docker image
+
+✅ Push image to Docker Hub
+
+## 🧱 Deploy Locally
+
+Option 1: Docker Compose
+```bash
+docker-compose pull
+docker-compose up -d
+```
+
+Visit http://localhost:5000
+
+You should see:
+
+- - Hello from CI/CD with Docker!
+
+Option 2: Minikube
+```bash
+minikube start
+kubectl create deployment demo --image=your-dockerhub-username/ci-cd-docker-demo:latest
+kubectl expose deployment demo --type=NodePort --port=5000
+minikube service demo
+
+```
+## 📸 Screenshots
+
