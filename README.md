@@ -1,9 +1,12 @@
 # 🚀 CI/CD Pipeline with GitHub Actions & Docker
 
-**CI/CD Pipeline with GitHub Actions & Docker (No Cloud Needed)**
-Objective: Set up a full CI/CD pipeline that builds a Docker image, runs tests, and deploys locally.
+### Problem Statement
 
-Tools: GitHub Actions, Docker, Docker Hub (free), Minikube or local VM
+**CI/CD Pipeline with GitHub Actions & Docker (No Cloud Needed)**
+
+**Objective:** Set up a full CI/CD pipeline that builds a Docker image, runs tests, and deploys locally.
+
+**Tools:** GitHub Actions, Docker, Docker Hub (free), Minikube or local VM
 
 **Mini Guide:**
 - Write a Dockerfile and docker-compose.yml.
