@@ -45,7 +45,7 @@ ci-cd-docker-demo/
 ├── docker-compose.yml
 ├── .github/
 │ └── workflows/
-│ └── ci-cd.yml
+│      └── ci-cd.yml
 └── README.md
 ```
 ---
