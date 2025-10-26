@@ -190,3 +190,35 @@ minikube service demo
 ```
 ## 📸 Screenshots
 
+<img width="700" height="500" alt="Screenshot 2025-10-26 174256" src="https://github.com/user-attachments/assets/141cb06b-b255-4c2c-ac73-b4ab9a84c230" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 174339" src="https://github.com/user-attachments/assets/ed006e8b-fd54-4211-9ed9-56547a9d799b" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 175510" src="https://github.com/user-attachments/assets/e3e121ac-fcd0-4fb2-b7f8-cc697ab59449" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 180256" src="https://github.com/user-attachments/assets/ec4c8292-d960-4bcb-b075-77f7b6a5a3a5" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 180322" src="https://github.com/user-attachments/assets/922e30c4-9464-419c-a810-a8ca747c2b9e" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 180340" src="https://github.com/user-attachments/assets/b49b5007-5346-403d-b266-68679cddcdb4" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 183602" src="https://github.com/user-attachments/assets/8d7e4795-70cc-46ae-b4f3-35e2213decdd" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 183721" src="https://github.com/user-attachments/assets/dfa26b28-6431-458d-951a-b2720063f009" />
+
+<img width="700" height="500" alt="Screenshot 2025-10-26 183749" src="https://github.com/user-attachments/assets/57370676-d0eb-471d-b38b-82984df57bbb" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
