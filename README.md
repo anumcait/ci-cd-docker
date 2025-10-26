@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 **Dockerfile**
 
-```
+```bash
 FROM python:3.11-slim
 WORKDIR /app
 COPY requirements.txt .
@@ -82,8 +82,8 @@ COPY . .
 EXPOSE 5000
 CMD ["python", "app.py"]
 ```
-docker-compose.yml
-```
+**docker-compose.yml**
+```bash
 version: '3'
 services:
   web:
